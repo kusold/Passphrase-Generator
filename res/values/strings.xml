@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World, Cse551applicationActivity!</string>
-    <string name="app_name">Cse551application</string>
-</resources>
+
+    <string
+         name="app_name">Password Generator</string>
+    <string
+        name="help">Help Screen</string>
+    <string
+        name="hello">Hello!</string>
+    <string
+        name="menu">Main Menu Screen</string>
+    <string
+        name="splash">Splash Screen</string>
+    <string
+        name="settings">Settings Screen</string>
+    <string
+        name="generator">Generator Screen</string>
+    <string
+        name="statistics">Statistics Screen</string>
+    <string
+        name="app_logo_top">Password Generator</string>
+    <string
+        name="app_logo_bottom">By Crypto Applications</string>
+    <string
+        name="app_version_info">Version 1.0.0
+    </string>
+    
+ </resources>
