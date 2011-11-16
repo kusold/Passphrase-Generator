@@ -4,7 +4,7 @@
     android:versionCode="1"
     android:versionName="1.0" >
 
-    <uses-sdk android:minSdkVersion="7" />
+    <uses-sdk android:minSdkVersion="10" />
 
     <application
         android:label="@string/app_name"
@@ -12,7 +12,7 @@
         android:icon="@drawable/passgen"
         >
         <activity
-            android:name=".SplashActivity"
+            android:name=".MenuActivity"
             android:label="@string/app_name">
             <intent-filter >
                 <action
@@ -22,15 +22,19 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".SplashActivity"></activity>
+        <activity
             android:name=".GeneratorActivity"></activity>
         <activity
             android:name=".SettingsActivity"></activity>
         <activity
-            android:name=".StatisticsActivity"></activity>
+            android:name=".StatsActivity"></activity>
         <activity
             android:name=".HelpActivity"></activity>
-        <activity
-            android:name=".MenuActivity"></activity>
+        
+        
+            
+            
     </application>
     
 </manifest>
