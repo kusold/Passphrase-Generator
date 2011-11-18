@@ -9,10 +9,10 @@
     <application
         android:label="@string/app_name"
         android:debuggable="true"
-        android:icon="@drawable/passgen"
+        android:icon="@drawable/icon"
         >
         <activity
-            android:name=".MenuActivity"
+            android:name=".SplashActivity"
             android:label="@string/app_name">
             <intent-filter >
                 <action
@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SplashActivity"></activity>
+            android:name=".MenuActivity"></activity>
         <activity
             android:name=".GeneratorActivity"></activity>
         <activity
