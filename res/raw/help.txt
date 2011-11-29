@@ -3,7 +3,10 @@ Help
 
 Settings:
 Enter phrase to be used to generate your password.
-Choose Password strength Strong, Medium or Weak.
+Enter a phrase based on the following security settings -
 
+Strong - letters, numbers, and special characters
+Medium - letters and numbers
+Weak - letters
 
-All passwords are blah blah.
+Be aware that the pass phrase is case-sensitive.
