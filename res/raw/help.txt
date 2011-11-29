@@ -2,8 +2,7 @@ Help
 
 
 Settings:
-Enter phrase to be used to generate your password.
-Enter a phrase based on the following security settings -
+Enter a phrase to be used to generate your password based on the following security settings -
 
 Strong - letters, numbers, and special characters
 Medium - letters and numbers
