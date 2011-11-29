@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color
+        name="logo1_yellow">#FFFF00</color>
+   <color
+        name="logo2_yellow">#FFFF00</color>
+   <color
+        name="help_text_white">#EEEEEE</color>   
+   <color
+        name="yellow_color">#FFFF00</color>
+    <color
+        name="red_color">#FF0000</color>
+    <color
+        name="blue_color">#FFFFFF</color>
+        <color
+        name="green_color">#009900</color>
+    <color
+        name="version_color">#f0f0f0</color>
+    <color
+        name="version_bkgrd">#1a1a48</color>
+        <color
+        name="title_color">#FF4169E1</color>
+    <color
+        name="title_glow">#F00</color>
+    <color
+        name="menu_color">#FFFFFF00</color>
+    <color
+        name="menu_glow">#F00</color>
+        
+</resources>

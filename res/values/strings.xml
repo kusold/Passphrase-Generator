@@ -2,11 +2,13 @@
 <resources>
 
     <string
-         name="app_name">Password Creator</string>
+         name="app_name">  Password Creator</string>
     <string
          name="no_name"></string>
     <string
         name="help">  Help Screen</string>
+    <string
+        name="hello">  Hello? I am not using this screen.</string>
     <string
         name="settingradio1">  Strong</string>
     <string
@@ -15,8 +17,6 @@
         name="settingsradio3">  Weak</string>
     <string
         name="settingsgeneratebutton">Generate Password</string>
-    <string
-        name="hello">Hello? Hello? I am not using this screen!</string>
     <string
         name="menu">Main Menu</string>
     <string
@@ -30,7 +30,7 @@
     <string
         name="input_text">Enter a phrase below:</string>
     <string
-        name="output_text">Your new Generated Password:</string>
+        name="output_text"> Your new generated password:</string>
      <string
         name="menu_item_stats">Statistics</string>
      <string
@@ -48,7 +48,7 @@
     <string
         name="app_logo_bottom">By Crypto Applications</string>
     <string
-        name="app_version_info">Version 7.0
+        name="app_version_info">Version 10.0.0
     </string>
     
  </resources>

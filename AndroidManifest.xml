@@ -28,13 +28,7 @@
         <activity
             android:name=".SettingsActivity"></activity>
         <activity
-            android:name=".StatsActivity"></activity>
-        <activity
-            android:name=".HelpActivity"></activity>
-        
-        
-            
-            
+            android:name=".HelpActivity"></activity>        
     </application>
     
 </manifest>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black" >
+<TextView
+    android:id="@+id/TextViewTopTitle"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:layout_weight="0.11"
+    android:gravity="top|center"
+    android:text="@string/app_logo_top"
+    android:textColor="@color/logo1_yellow"
+    android:textSize="@dimen/logo1_size" >
+
+    </TextView>
+
+<ImageView
+    android:id="@+id/ImageView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/textured" />
+
+    <TableLayout
+        android:id="@+id/TableLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@+id/TableRow01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/ImageView2_Left"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:scaleType="center"
+                android:src="@drawable/pebbleh" />
+
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/TextViewBottomTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="0.19"
+        android:gravity="center"
+        android:text="@string/app_logo_bottom"
+        android:textColor="@color/logo2_yellow"
+        android:textSize="@dimen/logo2_size" >
+
+    </TextView>
+
+
+
+<TextView
+    android:id="@+id/TextViewBottomVersion"
+    android:layout_width="fill_parent"
+    android:layout_height="30dp"
+    android:background="@color/version_bkgrd"
+    android:gravity="bottom|center"
+    android:lineSpacingExtra="@dimen/version_spacing"
+    android:text="@string/app_version_info"
+    android:textColor="@color/version_color"
+    android:textSize="@dimen/version_size" />
+
+</LinearLayout>
