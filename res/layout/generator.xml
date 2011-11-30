@@ -113,7 +113,8 @@
             android:layout_gravity="bottom"
             android:minWidth="40px"
             android:text="@string/generate_button"
-            android:textSize="@dimen/menu_item_size" />
+            android:textSize="@dimen/menu_item_size" >
+        </Button>
 
         <Button
             android:id="@+id/Button_No"
