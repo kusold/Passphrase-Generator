@@ -101,7 +101,7 @@ public class GeneratorActivity extends ApplicationActivity {
 
 			int index = findIndex(((Character) passphrase.charAt(j)).toString());
 
-			index = (index + previous) * 13;
+			index = (index + previous) * 17;
 
 			while (index >= alpha.length) {
 				index = index - alpha.length;
@@ -129,7 +129,7 @@ public class GeneratorActivity extends ApplicationActivity {
 
 			int index = findIndex(((Character) passphrase.charAt(j)).toString());
 
-			index = (index + previous) * 13;
+			index = (index + previous) * 17;
 
 			while (index >= alphaNum.length) {
 				index = index - alphaNum.length;
@@ -154,7 +154,7 @@ public class GeneratorActivity extends ApplicationActivity {
 
 			int index = findIndex(((Character) passphrase.charAt(j)).toString());
 
-			index = (index + previous) * 13;
+			index = (index + previous) * 17;
 
 			while (index >= alphaNumSpec.length) {
 				index = index - alphaNumSpec.length;
